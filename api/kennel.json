@@ -1,0 +1,32 @@
+{
+  "employees": [
+    {
+      "id": 3,
+      "name": "Zoe LeBlanc"
+    }
+  ],
+  "animals": [
+    {
+      "id": 1,
+      "name": "Jordan"
+    }
+  ],
+  "owners": [
+    {
+      "id": 6,
+      "name": "Emily"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "500 Circle Way"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "10101 Binary Court"
+    }
+  ]
+}
