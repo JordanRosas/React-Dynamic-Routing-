@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import images from './images.jpg'
 import './Employees.css'
+import { Link } from "react-router-dom"
 
 
 export default class AnimalList extends Component {
@@ -14,6 +15,7 @@ export default class AnimalList extends Component {
                             <h5 className="card-title">
                                 <img src={images} className="icon--employee" alt="working" />
                                 {employee.name}
+                                <Link className="nav-link" to={`/employees/${employee.id}`}>Details</Link>
                                 <a
                                     href="#"
                                     onClick={() => this.props.deleteEmployee(employee.id)}
