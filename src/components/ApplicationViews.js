@@ -21,6 +21,7 @@ export default class ApplicationViews extends Component {
         owners:[]
     }
 
+    //After components have mounted the rest of the requests will be carried out in this module 
     componentDidMount() {
         
         AnimalManager.getAll().then(allAnimals => {
@@ -44,7 +45,7 @@ export default class ApplicationViews extends Component {
             })
         })
     }
-
+    //Delete methods for the different components in the DOM. 
     deleteAnimal = (id) => {
         return AnimalManager.removeAnimal(id)
         .then(animals => this.setState({
