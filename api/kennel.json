@@ -6,27 +6,12 @@
       "occupation": "Artist"
     },
     {
-      "id": 8,
-      "name": "Woe QeBlanc",
-      "occupation": "Artist"
-    },
-    {
       "id": 9,
       "name": "Goe SeBlanc",
       "occupation": "Artist"
     }
   ],
   "animals": [
-    {
-      "id": 1,
-      "name": "Jordan",
-      "breed": "Mut"
-    },
-    {
-      "id": 3,
-      "name": "Jordan",
-      "breed": "Mut"
-    },
     {
       "id": 5,
       "name": "Jordan",
@@ -42,11 +27,6 @@
     {
       "id": 6,
       "name": "Emily",
-      "profession": "dog fighting"
-    },
-    {
-      "id": 7,
-      "name": "H-Metty",
       "profession": "dog fighting"
     },
     {
